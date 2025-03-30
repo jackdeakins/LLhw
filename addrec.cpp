@@ -37,19 +37,7 @@ void addRecord(BookList*& list){
     loop->book->author = author;
     loop->book->title = title;
     list->length++;
-    tmp = loop;
-  /*else{
-    loop->list = list;
-    list->tail = loop;
-    tmp->next = loop;
-    loop->next = nullptr;
-    loop->previous = tmp;
-    loop->book = new BookData;
-    loop->book->isbn = isbn;
-    loop->book->author = author;
-    loop->book->title = title;
-    list->length++;
-  }*/ 
+    tmp = loop; 
 
   fout << loop->book->isbn << "\n";
   fout << loop->book->author << "\n";

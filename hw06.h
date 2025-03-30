@@ -37,7 +37,7 @@ void populateList(BookList*&);
 void addRecord(BookList*&);
 void deleteRecord(BookList*&);
 void displayRecord(BookList*);
-/*void displayRecords();*/
+void displayRecords(BookList*);
 bool saveExit(BookList*&);
 
 #endif

@@ -20,9 +20,9 @@ int main(){
       case 3:
         displayRecord(list);
         break;
-      /*case 4:
-        displayRecords();
-        break;*/
+      case 4:
+        displayRecords(list);
+        break;
       case 5:
         quit = saveExit(list);
         break;

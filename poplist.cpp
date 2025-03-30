@@ -21,7 +21,7 @@ void populateList(BookList*& list){
   
   else
   {
-    while(getline(fin,isbn) && getline(fin,title) && getline(fin,author) && getline(fin, space)){
+    while(getline(fin,isbn) && getline(fin,author) && getline(fin,title) && getline(fin, space)){
       tmp = new BookEntry;
       tmp->list = list;
       tmp->next = nullptr;
@@ -29,8 +29,8 @@ void populateList(BookList*& list){
       tmp->book = new BookData;
 
       tmp->book->isbn = isbn;
-      tmp->book->title = title;
       tmp->book->author = author;
+      tmp->book->title = title;
 
       if(list->head == nullptr){
         list->head = tmp;

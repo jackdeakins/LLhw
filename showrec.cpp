@@ -19,5 +19,5 @@ void displayRecord(BookList* list){
 
   cout << counter << ". " << tmp->book->isbn << "\n";
   cout << "   " << tmp->book->author << "\n";
-  cout << "   " << tmp->book->title << "\n";
+  cout << "   " << tmp->book->title << "\n\n";
 }
