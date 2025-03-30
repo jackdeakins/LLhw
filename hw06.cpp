@@ -14,13 +14,13 @@ int main(){
       case 1: 
         addRecord(list);
         break;
-      /*case 2:
-        deleteRecord();
+      case 2:
+        deleteRecord(list);
         break;
       case 3:
-        displayRecord();
+        displayRecord(list);
         break;
-      case 4:
+      /*case 4:
         displayRecords();
         break;*/
       case 5:

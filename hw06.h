@@ -35,9 +35,9 @@ struct BookData{
 int menu();
 void populateList(BookList*&);
 void addRecord(BookList*&);
-/*void deleteRecord();
-void displayRecord();
-void displayRecords();*/
+void deleteRecord(BookList*&);
+void displayRecord(BookList*);
+/*void displayRecords();*/
 bool saveExit(BookList*&);
 
 #endif
