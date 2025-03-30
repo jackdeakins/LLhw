@@ -6,10 +6,9 @@ int main(){
   BookList *list = nullptr;
   BookEntry *entry = nullptr;
 
+  populateList(list);
   do{
     selection = menu();
-    populateList(list);
-  
   
     switch (selection){
       case 1: 

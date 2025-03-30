@@ -35,8 +35,8 @@ void populateList(BookList*& list){
       if(list->head == nullptr){
         list->head = tmp;
       }
-      else{
-       	loop->next = tmp; //possibly leaking here
+      else{      
+       	loop->next = tmp;
         tmp->previous = loop;
       }
 
